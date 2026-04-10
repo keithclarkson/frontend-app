@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:30:00.000Z",
+  "service": "frontend-app",
+  "version": "1.2.3",
+  "dependencies": {
+    "api_server": {
+      "status": "ok",
+      "response_time_ms": 25
+    },
+    "database": {
+      "status": "ok",
+      "connection_status": "connected"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 256,
+    "active_users": 1234,
+     "requests_per_minute": 60
+  },
+  "environment": "production"
+}
